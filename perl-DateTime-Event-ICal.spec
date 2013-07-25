@@ -1,15 +1,15 @@
 %define upstream_name    DateTime-Event-ICal
-%define upstream_version 0.10
+%define upstream_version 0.11
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 0.11
+Release:	1
 
 Summary:	Perl DateTime extension for computing rfc2445 recurrences
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/DateTime/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/DateTime/DateTime-Event-ICal-0.11.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(DateTime)
@@ -50,3 +50,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Thu May 06 2010 cpan2dist 0.10-1mdv
 - initial mdv release, generated with cpan2dist
+
