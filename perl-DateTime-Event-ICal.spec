@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.11
-Release:	2
+Release:	3
 
 Summary:	Perl DateTime extension for computing rfc2445 recurrences
 License:	GPL+ or Artistic
