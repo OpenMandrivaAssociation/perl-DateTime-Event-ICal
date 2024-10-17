@@ -8,7 +8,7 @@ Release:	3
 Summary:	Perl DateTime extension for computing rfc2445 recurrences
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/DateTime/DateTime-Event-ICal-0.11.tar.gz
 
 BuildRequires:	perl-devel
