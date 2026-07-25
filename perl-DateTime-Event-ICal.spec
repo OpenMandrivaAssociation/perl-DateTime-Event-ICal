@@ -1,15 +1,15 @@
 %define upstream_name    DateTime-Event-ICal
-%define upstream_version 0.11
+%define upstream_version 0.13
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.11
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Perl DateTime extension for computing rfc2445 recurrences
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/DateTime/DateTime-Event-ICal-0.11.tar.gz
+Url:		https://github.com/fglock/DateTime-Event-ICal
+Source0:	https://cpan.metacpan.org/authors/id/F/FG/FGLOCK/DateTime-Event-ICal-0.13.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
