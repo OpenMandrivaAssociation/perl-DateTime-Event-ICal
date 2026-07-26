@@ -1,9 +1,7 @@
 %define upstream_name    DateTime-Event-ICal
-%define upstream_version 0.13
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.13
+Release:	2
 
 Summary:	Perl DateTime extension for computing rfc2445 recurrences
 License:	GPL+ or Artistic
@@ -22,7 +20,7 @@ This module provides convenience methods that let you easily create
 'DateTime::Set' objects for rfc2445 style recurrences.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
